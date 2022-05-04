@@ -1,10 +1,10 @@
     <!-- Footer -->
-    <div class="bg-light" id="footer" style="margin-bottom: 40px; display: {{ ($footer === "no") ? 'none' : '' }}">
-        <div class="container-md">
-          <footer class="row row-cols-5 mt-5 border-top">
+    <div class="bg-light py-5" id="footer" style="display: {{ ($footer === "no") ? 'none' : '' }}">
+        <div class="container-md ">
+          <footer class="row row-cols-5">
             <div class="col-md">
               <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                <img src="/asssets/img/navbar-logo.png" alt="" height="40" />
+                <img src="/asssets/img/navbar-logo.png" alt="" height="20" />
               </a>
               <p class="text-muted">© 2021</p>
             </div>
@@ -47,7 +47,7 @@
                       <i class="fas fa-envelope my-2"></i>
                     </div>
                     <div class="col-md-10 d-flex align-items-center">
-                      <h6>manifestocoffee2@gmail.com</h6>
+                      <h6>koepilihanku-admin@gmail.com</h6>
                     </div>
                   </div>
                 </div>
@@ -82,7 +82,7 @@
                   <i class="fas fa-envelope my-2"></i>
                 </div>
                 <div class="col-md-10 d-flex align-items-center">
-                  <h6>manifestocoffee2@gmail.com</h6>
+                  <h6>koepilihanku-admin@gmail.com</h6>
                 </div>
               </div>
             </div>

@@ -2,11 +2,18 @@
 
 @section('konten')
     <!-- Banner -->
-    <div class="banner">
-        <div class="container txt-banner">
-          <h1 class="text-center shadow text-uppercase">Checkout</h1>
+    <div class="banner" style="height: 400px">
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+            <div class="col">
+              <h1 class="text-uppercase">Checkout</h1>
+            </div>
+            <div class="col">
+              <div class="container"></div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
     @if ($noCheckout == '')
     <div class="container my-4 text-center">
