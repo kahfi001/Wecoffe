@@ -34,108 +34,149 @@ class DatabaseSeeder extends Seeder
         ]);
 
         Product::create([
-            'nama' => 'Robusta Wonosalam',
+            'nama' => 'Black Coffee',
             'kategori' => 'Bubuk Kopi',
             'harga' => '20000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'black-coffee.png'
         ]);
         Product::create([
-            'nama' => 'Arabika Wonosalam',
+            'nama' => 'Boba Fresh Milk',
             'kategori' => 'Bubuk Kopi',
             'harga' => '20000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'boba-fresh-milk.png'
         ]);
         Product::create([
-            'nama' => 'Jember',
+            'nama' => 'Brown Sugar Boba',
             'kategori' => 'Bubuk Kopi',
             'harga' => '20000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'brown-sugar-boba.png'
         ]);
         Product::create([
-            'nama' => 'Arabika',
+            'nama' => 'Choco Matcha',
             'kategori' => 'Bubuk Kopi',
             'harga' => '20000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'cocho-matcha.png'
         ]);
         Product::create([
-            'nama' => 'Kopi Wonosalam',
+            'nama' => 'Choco Soya',
             'kategori' => 'Bubuk Kopi',
-            'harga' => '40000',
+            'harga' => '23000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'cocho-soya.png'
         ]);
         Product::create([
-            'nama' => 'Robusta Belawan',
+            'nama' => 'Kopi Gula Aren',
             'kategori' => 'Bubuk Kopi',
-            'harga' => '30000',
+            'harga' => '18000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'gula-aren.png'
         ]);
         Product::create([
-            'nama' => 'Arabika Belawan',
+            'nama' => 'Jasmine Tea',
             'kategori' => 'Bubuk Kopi',
-            'harga' => '30000',
+            'harga' => '18000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'jasmine-tea.png'
         ]);
         Product::create([
-            'nama' => 'Robusta Super',
+            'nama' => 'Kopi Susu',
             'kategori' => 'Bubuk Kopi',
-            'harga' => '20000',
+            'harga' => '15000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'kopi-susu.png'
         ]);
         Product::create([
-            'nama' => 'Tulungagung',
+            'nama' => 'Lemon Tea',
             'kategori' => 'Bubuk Kopi',
-            'harga' => '20000',
+            'harga' => '18000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'lemon-tea.png'
         ]);
         Product::create([
-            'nama' => 'Blitar',
+            'nama' => 'Mango Tea',
             'kategori' => 'Bubuk Kopi',
-            'harga' => '20000',
+            'harga' => '23000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'mango-tea.png'
         ]);
         Product::create([
-            'nama' => 'Lampung',
-            'kategori' => 'Bubuk Kopi',
-            'harga' => '20000',
-            'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
-            'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
-        ]);
-        Product::create([
-            'nama' => 'Banyuwangi',
+            'nama' => 'Matcha',
             'kategori' => 'Bubuk Kopi',
             'harga' => '20000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'matcha.png'
         ]);
         Product::create([
-            'nama' => 'Dampit',
+            'nama' => 'Oreo Cheese Milkshake',
+            'kategori' => 'Bubuk Kopi',
+            'harga' => '25000',
+            'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
+            'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
+            'gambar' => 'oreo-cheese-milkshake.png'
+        ]);
+        Product::create([
+            'nama' => 'Oreo Milkshake',
+            'kategori' => 'Bubuk Kopi',
+            'harga' => '23000',
+            'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
+            'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
+            'gambar' => 'oreo-milkshake.png'
+        ]);
+        Product::create([
+            'nama' => 'Red Velvet',
             'kategori' => 'Bubuk Kopi',
             'harga' => '20000',
             'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
             'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
-            'gambar' => 'abc.jpeg'
+            'gambar' => 'red-velvet.png'
         ]);
+        Product::create([
+            'nama' => 'Strawberry Tea',
+            'kategori' => 'Bubuk Kopi',
+            'harga' => '18000',
+            'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
+            'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
+            'gambar' => 'strawberry-tea.png'
+        ]);
+        Product::create([
+            'nama' => 'Taro',
+            'kategori' => 'Bubuk Kopi',
+            'harga' => '20000',
+            'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
+            'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
+            'gambar' => 'taro.png'
+        ]);
+        Product::create([
+            'nama' => 'Thaitea Cheese',
+            'kategori' => 'Bubuk Kopi',
+            'harga' => '20000',
+            'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
+            'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
+            'gambar' => 'thaitea-cheese.png'
+        ]);
+        Product::create([
+            'nama' => 'Yuzu',
+            'kategori' => 'Bubuk Kopi',
+            'harga' => '24000',
+            'penjelasan_singkat' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, blanditiis?',
+            'deskripsi' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repudiandae ullam veniam doloribus nostrum delectus, eius facilis eum reiciendis. Fugit, autem corrupti ab voluptatem nihil enim quod. Sapiente, dignissimos esse. Quia officiis quasi a architecto officia ab maiores beatae molestias eos optio, alias in nobis, tempore rem! Officiis expedita quis aperiam in quam voluptatem at ipsam, sit nam maiores amet illum sint vero modi esse totam voluptates dolorum, magni dolore corporis doloremque molestias nobis laborum? Reprehenderit iusto dignissimos distinctio ratione.',
+            'gambar' => 'yuzu.png'
+        ]);
+        
     }
 }
