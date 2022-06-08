@@ -37,7 +37,7 @@
                       <i class="fab fa-whatsapp my-2"></i>
                     </div>
                     <div class="col-md-10 d-flex align-items-center">
-                      <h6>081246504639</h6>
+                      <h6>085162614639</h6>
                     </div>
                   </div>
                 </div>
@@ -47,7 +47,7 @@
                       <i class="fas fa-envelope my-2"></i>
                     </div>
                     <div class="col-md-10 d-flex align-items-center">
-                      <h6>koepilihanku-admin@gmail.com</h6>
+                      <h6>Wecoffee-admin@gmail.com</h6>
                     </div>
                   </div>
                 </div>
@@ -72,7 +72,7 @@
                   <i class="fab fa-whatsapp my-2"></i>
                 </div>
                 <div class="col-md-10 d-flex align-items-center">
-                  <h6>081246504639</h6>
+                  <h6>085162614639</h6>
                 </div>
               </div>
             </div>
@@ -82,7 +82,7 @@
                   <i class="fas fa-envelope my-2"></i>
                 </div>
                 <div class="col-md-10 d-flex align-items-center">
-                  <h6>koepilihanku-admin@gmail.com</h6>
+                  <h6>wecoffee-admin@gmail.com</h6>
                 </div>
               </div>
             </div>

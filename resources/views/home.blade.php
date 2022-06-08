@@ -10,14 +10,14 @@
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
+              <div class="carousel-item banner-img">
+                <img src="/asssets/img/banner2.png" class="d-block w-100" alt="..." />
+              </div>
               <div class="carousel-item active banner-img">
-                <img src="/asssets/img/banner1.jpg" class="d-block w-100" alt="..." />
+                <img src="/asssets/img/banner1.png" class="d-block w-100" alt="..." />
               </div>
               <div class="carousel-item banner-img">
-                <img src="/asssets/img/banner2.jpg" class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item banner-img">
-                <img src="/asssets/img/banner3.jpg" class="d-block w-100" alt="..." />
+                <img src="/asssets/img/banner3.png" class="d-block w-100" alt="..." />
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -31,7 +31,7 @@
           </div>
       
           <!-- Fitur -->
-          <div class="container-md services">
+          {{-- <div class="container-md services">
             <div class="row text-center">
               <div class="col-md">
                 <div class="shipping rounded-circle ms-auto me-auto">
@@ -56,8 +56,8 @@
               </div>
             </div>
           </div>
-      
-          <!-- Kategori -->
+       --}}
+          {{-- <!-- Kategori -->
           <div class="container-md kategori">
             <h2 class="text-center fw-bold" style="margin-bottom: 40px">Kategori</h2>
             <div class="row">
@@ -71,12 +71,7 @@
                   <div class="badge text-wrap txt" style="width: 6rem">Bubuk kopi</div>
                 </div>
               </div>
-              {{-- <div class="col-md kategori-list">
-                <div class="item k3 d-flex align-items-end ms-auto me-auto shadow">
-                  <div class="badge text-wrap txt" style="width: 6rem">Mesin kopi</div>
-                </div>
-              </div> --}}
-            </div>
+            </div> --}}
           </div>
 
               <!-- Produk -->

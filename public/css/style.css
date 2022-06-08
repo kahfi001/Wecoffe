@@ -3,7 +3,7 @@ body {
 }
 /* Navbar */
 .flex-nav {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
 }
 
 .carousel .carousel-item {
@@ -19,7 +19,7 @@ body {
 }
 
 .search-btn {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
   color: #fff;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .search-btn:hover {
-  background-color: #9b743f;
+  background-color: #2A1760;
   color: #fff;
 }
 
@@ -38,6 +38,34 @@ body {
 .icon-navbar:hover {
   color: #d8c6ae;
 }
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+nav.navbar ul li a{
+  position: relative;
+}
+nav.navbar ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '';
+  background: #2E6BBC;
+  height: 1px;
+}
+nav.navbar ul li a:hover:after {
+  width: 100%;
+}
+
 
 /* Banner */
 .carousel .banner-promo {
@@ -67,7 +95,7 @@ body {
 }
 
 .shipping:hover {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
 }
 
 /* ?kategori */
@@ -92,7 +120,7 @@ body {
 }
 
 .txt {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
   padding: 10px;
 }
 
@@ -179,14 +207,14 @@ body {
 }
 
 .produk .produk-item .text .op-item {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
   height: 40px;
   width: 40px;
   padding-top: 15%;
 }
 
 .produk .produk-item .text .op-item:hover {
-  background-color: #9b743f;
+  background-color: #2A1760;
   height: 40px;
   width: 40px;
   padding-top: 15%;
@@ -212,14 +240,14 @@ body {
 }
 
 .btn-beli {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
   color: white;
   letter-spacing: 3px;
   font-weight: 500;
 }
 
 .btn-beli:hover {
-  background-color: #9b743f;
+  background-color: #2A1760;
   color: white;
   transition: 0.7s;
 }
@@ -241,7 +269,7 @@ body {
 }
 
 .modal-cart .box button {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
   color: white;
   padding: 0 10px;
   border: none;
@@ -250,7 +278,7 @@ body {
 }
 
 .modal-cart .box button:hover {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
 }
 
 /* footer */
@@ -320,7 +348,7 @@ body {
 }
 
 .table-whistlist {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
   color: white;
   outline: none;
 }
@@ -344,7 +372,7 @@ body {
 .detail-text h2 {
   margin: 30px;
   font-size: 40px;
-  color: #c49b63;
+  color: #2E6BBC;
 }
 
 .detail-text p {
@@ -360,7 +388,7 @@ input {
 }
 
 .btn-add {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
   color: white;
   width: 100%;
 }
@@ -409,7 +437,7 @@ input {
 }
 
 .detail-text .box button {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
   color: white;
   padding: 0 15px;
   border: none;
@@ -418,7 +446,7 @@ input {
 }
 
 .detail-text .box button:hover {
-  background-color: #c49b63;
+  background-color: #2E6BBC;
 }
 
 .detail-text .box {
@@ -461,7 +489,7 @@ input {
   }
 
   .txt {
-    background-color: #c49b63;
+    background-color: #2E6BBC;
     padding: 10px;
   }
 
@@ -533,14 +561,14 @@ input {
   }
 
   .produk .produk-item .text .op-item {
-    background-color: #c49b63;
+    background-color: #2E6BBC;
     height: 40px;
     width: 40px;
     padding-top: 15%;
   }
 
   .produk .produk-item .text .op-item:hover {
-    background-color: #9b743f;
+    background-color: #2A1760;
     height: 40px;
     width: 40px;
     padding-top: 15%;
@@ -568,14 +596,14 @@ input {
   }
 
   .btn-beli {
-    background-color: #c49b63;
+    background-color: #2E6BBC;
     color: white;
     letter-spacing: 3px;
     font-weight: 500;
   }
 
   .btn-beli:hover {
-    background-color: #9b743f;
+    background-color: #2A1760;
     color: white;
     transition: 0.7s;
   }
@@ -597,7 +625,7 @@ input {
   }
 
   .modal-cart .box button {
-    background-color: #c49b63;
+    background-color: #2E6BBC;
     color: white;
     padding: 0 10px;
     border: none;
@@ -606,7 +634,7 @@ input {
   }
 
   .modal-cart .box button:hover {
-    background-color: #c49b63;
+    background-color: #2E6BBC;
   }
 
   .modal-cart .card {

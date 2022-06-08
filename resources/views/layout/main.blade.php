@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="{{ URL::asset('asssets/img/tittle-logo.png') }}" />
     {{-- <link href="{{ URL::asset('css/jquery.nice-number.css') }}" rel="stylesheet" /> --}}
 
-    <title>Manifesto Coffee | {{ $tittle }}</title>
+    <title>WeCoffee | {{ $tittle }}</title>
   </head>
   <body style="margin-top: 3%">
     @include('components.navbar')

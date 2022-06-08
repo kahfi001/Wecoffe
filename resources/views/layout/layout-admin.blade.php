@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Manifesto Admin | {{ $tittle }}</title>
+    <title>Wecoffee Admin | {{ $tittle }}</title>
 
 
     <!-- Custom fonts for this template-->
