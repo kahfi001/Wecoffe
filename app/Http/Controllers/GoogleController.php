@@ -32,7 +32,7 @@ class GoogleController extends Controller
                     'password' => bcrypt('12345678'),
                     'username' => $user->getName(),
                     'level' => "user",
-                    'google_id' => $user->getId(),
+                    'google_id' => $user->getId()
                 ]);
                 try {
                     Auth::login($newUser);
